@@ -1,0 +1,10 @@
+TEMPLATE = app
+QT = gui core
+CONFIG += qt release warn_on console
+DESTDIR = bin
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
+FORMS = ui/jmplayer.ui
+HEADERS = src/jmplayer.h src/getFileInfo.h
+SOURCES = src/jmplayer.cpp src/main.cpp src/getFileInfo.cpp
